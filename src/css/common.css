@@ -1,0 +1,16 @@
+.wraper{
+   width: auto;
+   height: 28px;
+   background-color: rgb(70, 70, 209);
+   padding-top: 5px;
+}
+.search-form{
+   display: flex;
+   justify-content: center;
+}
+
+.gallery{
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+}
