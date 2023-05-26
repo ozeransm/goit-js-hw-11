@@ -13,4 +13,25 @@
    display: flex;
    justify-content: flex-start;
    flex-wrap: wrap;
+   gap: 10px
+}
+
+.info{
+   display: flex;
+   font-size: 14px;
+   gap: 10px;
+   border-radius: 3px;
+   border-left: 1px solid grey;
+   border-right: 1px solid grey;
+   border-bottom: 2px solid grey;
+}
+
+.info-item{
+   display: flex;
+   flex-direction: column ;
+   margin-left: 2px;
+}
+
+img{
+   display: block;
 }
