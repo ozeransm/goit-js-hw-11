@@ -79,7 +79,7 @@ function markUpGalery(obj){
     const markUpHtml = obj.data.hits.reduce((akk, {webformatURL, largeImageURL, tags, likes, views, comments, downloads})=>
     akk + `<div class="photo-card">
     <a href="${largeImageURL}" >
-    <img src="${webformatURL}" alt="${tags}" width="250" height="200" loading="lazy" title="${tags}"/>
+    <img src="${webformatURL}" alt="${tags}" height="200" loading="lazy" title="${tags}"/>
     </a>
     <div class="info">
       <p class="info-item">
